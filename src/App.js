@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
+import Searchbar from './components/Searchbar';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
@@ -22,6 +22,7 @@ function App() {
            <Route path='/menu' exact component={Menu}/>
 
         </Switch>
+        <Searchbar/>
         <Footer/>
       </Router>
     </div>

@@ -6,6 +6,17 @@ import Pineapple from "../assets/pineapple.jpg";
 import Expensive from "../assets/expensive.jpg";
 export const MenuList =[
   {
+    image: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    address: '1010 Paddington Way',
+    city: 'Flavortown',
+    state: 'NY',
+    zipCode: '10101',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+  },
+  {
     name: "Pepperoni Pizza",
     image: Pepperoni,
     address: "100 Peter Street",
@@ -72,6 +83,28 @@ export const MenuList =[
     category: "Pizza",
     rating: 4.5,
     reviewCount: 20
+  },
+  {
+    image: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    address: '1010 Paddington Way',
+    city: 'Flavortown',
+    state: 'NY',
+    zipCode: '10101',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+  },
+  {
+    image: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    address: '1010 Paddington Way',
+    city: 'Flavortown',
+    state: 'NY',
+    zipCode: '10101',
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
   }
 
 ];

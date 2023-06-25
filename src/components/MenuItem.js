@@ -4,16 +4,20 @@ function MenuItem({ name, image, address, city, state, zipcode, category, rating
     <div className='menuItem'>
       <div style={{backgroundImage: `url(${image})`}}></div>
       <h1>{name}</h1>
-      <div className='leftSide'>
-        <p>{address}</p><br/>
-        <p>{city}</p><br/>
-        <p>{state} {zipcode}</p>
+      <div className='detail'>
+        <ul className='leftSide'>
+          <li>{address}</li>
+          <li>{city}</li>
+          <li>{state} {zipcode}</li>      
+        </ul>
+        <ul className='rightSide'>
+          <li><h2>{category}</h2></li>
+          <li className='rating'>{rating} stars</li>
+          <li>{reviewCount} reviews</li>
+        </ul>
       </div>
-      <div className='rightSide'>
-        <h2>{category}</h2>
-        <p>{rating} stars</p><br/>
-        <p>{reviewCount} reviews</p>
-      </div>
+      
+
     </div>
   )
 }

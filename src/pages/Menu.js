@@ -5,6 +5,7 @@ import '../styles/Menu.css';
 function Menu() {
   return (
     <div className='menu'>
+      <div className='menuList'>
        { MenuList .map((menuItem,key)=>{
           return <MenuItem key={key}
                           name={menuItem.name} 
@@ -15,11 +16,12 @@ function Menu() {
                           zipcode={menuItem.zipcode} 
                           category={menuItem.category} 
                           rating={menuItem.rating} 
-                          reviewCount={menuItem.reviewCount}/>;
-       })};
+                          reviewCount={menuItem.reviewCount}/>
+       })}
+       </div>
       
     </div>
   )
 }
 
-export default Menu
+export default Menu;
