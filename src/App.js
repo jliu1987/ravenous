@@ -16,13 +16,14 @@ function App() {
     <div className="App">
       <Router>
         <Navbar/>
+        <Searchbar/>
         <Switch>
            <Route path='/' exact component={Home}/>
 
            <Route path='/menu' exact component={Menu}/>
 
         </Switch>
-        <Searchbar/>
+
         <Footer/>
       </Router>
     </div>
